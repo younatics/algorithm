@@ -15,3 +15,7 @@ print(multipliedArray)
 // Reduce
 let reduce = array.reduce(0) { $0 + $1 }
 print(reduce)
+
+for element in array {
+    print(element)
+}
