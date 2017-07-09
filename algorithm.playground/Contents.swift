@@ -19,3 +19,12 @@ print(reduce)
 for element in array {
     print(element)
 }
+
+// Reverse
+let str = array.flatMap { String($0) }.joined(separator: " ")
+print(str)
+
+//let n = Int(readLine()!)!
+
+// read array
+//let arr = readLine()!.components(separatedBy: " ").map{ Int($0)! }
